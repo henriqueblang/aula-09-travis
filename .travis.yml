@@ -1,3 +1,0 @@
-language: java
-version: openjdk8
-script: mvn test
