@@ -11,12 +11,5 @@ public class TestPilha {
 		Pilha pilha = new Pilha();
 		assertTrue(pilha.isVazia());
 	}
-	
-	@Test
-	public void testPush() {
-		Pilha pilha = new Pilha();
-		pilha.push(23);
-		assertFalse(pilha.isVazia());
-	}
 
 }
